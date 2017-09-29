@@ -3,129 +3,302 @@
 
 <head>
   <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>OWLETS</title>
+  <!-- Font Awesome -->
+  <!-- Bootstrap core CSS -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-beta/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Material Design Bootstrap -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.4.1/css/mdb.min.css" rel="stylesheet">
 
-  <title>Birdo is the Word</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome-animation/0.0.10/font-awesome-animation.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-  <!--
+  <link rel="shortcut icon" href="https://mdbootstrap.com/wp-content/themes/mdbootstrap4/favicon.ico">
+  <!-- Your custom styles (optional) -->
+  <!-- this had NOTHING in it ???  -->
+  <!-- link href="css/style.css" rel="stylesheet" -->
 
-    .__  __       .__  __
-    |  \/  |_ _   |  \/  |
-    | |\/| | '_|  | |\/| |_
-    |_|  |_|_|(_) |_|  |_(_)
+  <style>
+    /* TEMPLATE STYLES */
 
-    A Bootstrap 3.x template by Mr. M. - Confederation College
-    January 2017
-    NOTES:
-    - This contains all links to CDN's
-    - MIT Licence (c) 2017
-
-    
-    -->
-
-  <!-- Bootstrap -->
-  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
-  <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-  <!--[if lt IE 9]>
-    <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
-
-  <!-- Link to Font Awesome http://fontawesome.io/ -->
-  <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  <!-- favicon - ref: http://stackoverflow.com/questions/25952907/favicon-ico-vs-link-rel-shortcut-icon -->
-  <link rel="shortcut icon" href="/path/to/icons/favicon.ico">
-  <link rel="icon" type="image/png" href="/path/to/icons/favicon-192x192.png" sizes="192x192">
-  <link rel="apple-touch-icon" sizes="180x180" href="/path/to/icons/apple-touch-icon-180x180.png">
-
-  <style type="text/css">
-    body {
-      /* for nav bar*/
-      margin-top: 50px;
+    main {
+      padding-top: 3rem;
+      padding-bottom: 2rem;
     }
-    
-    h1 {
-      color: #f00;
-    }
-    
-    img {
-      padding: 50px;
+
+    .extra-margins {
+      margin-top: 1rem;
+      margin-bottom: 2.5rem;
     }
   </style>
 
-</head>
 
+</head>
 
 <body>
 
-  <nav class="navbar navbar-inverse navbar-fixed-top">
-    <div class="container">
-      <div class="navbar-header">
-        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
+  <!--Main Navigation-->
+  <header>
+
+
+    <nav class="navbar navbar-expand-lg navbar-dark secondary-color-dark">
+      <a class="navbar-brand" href="#"><strong>Company</strong></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
           </button>
-        <a class="navbar-brand" href="#">Project name</a>
-      </div>
-      <div id="navbar" class="collapse navbar-collapse">
-        <ul class="nav navbar-nav">
-          <li class="active"><a href="#">Home</a></li>
-          <li><a href="#about">About</a></li>
-          <li><a href="#contact">Contact</a></li>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Features</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Pricing</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Opinions</a>
+          </li>
+        </ul>
+        <ul class="navbar-nav nav-flex-icons">
+          <li class="nav-item">
+            <a class="nav-link"><i class="fa fa-facebook"></i></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link"><i class="fa fa-twitter"></i></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link"><i class="fa fa-instagram"></i></a>
+          </li>
         </ul>
       </div>
-      <!--/.nav-collapse -->
-    </div>
-  </nav>
+    </nav>
 
+  </header>
+  <!--Main Navigation-->
+
+  <main>
+
+    <!--Main layout-->
+    <div class="container">
+      <!--First row-->
+      <div class="row">
+        <div class="col-md-7">
+          <!--Featured image -->
+          <div class="view overlay hm-white-light z-depth-1-half">
+            <img src="https://fthmb.tqn.com/EE5I7Vllq26-4y9o2A1wn8E7Jsc=/3552x2368/filters:no_upscale()/about/owl9GE-5813635f3df78c2c73ad3dde.jpg" class="img-fluid " alt="">
+            <div class="mask">
+            </div>
+          </div>
+          <br>
+        </div>
+
+        <!--Main information-->
+        <div class="col-md-5">
+          <h2 class="h2-responsive wow fadeInDown">This is my town now <small>- Keisha</small></h2>
+          <hr>
+            <ul class="wow fadeInUp">
+              <li>This is a starter template using CDN (Content Delivery Network). </li>
+              <li class="green-text">It's a great template to start learning <a href="https://mdbootstrap.com/">MDBootstrap</a>.</li>
+              <li>Everything you need to get started is in a <strong>single</strong> HTML page.</li>
+              <li><a href="https://www.thoughtco.com/content-delivery-network-3469509">Why use CDN's ?</a></li>
+            </ul>
+            <a href="https://www.allaboutbirds.org/guide/PHOTO/LARGE/4998955672_e22de7bb10_o_RussCampbellCycroft.jpg" class="btn btn-secondary">Get it now from GitHub.com!</a>
+            
+        </div>
+      </div>
+      <!--/.First row-->
+
+      <hr class="extra-margins">
+
+      <!--Second row-->
+      <div class="row">
+        <!--First columnn-->
+        <div class="col-md-4">
+          <!--Card-->
+          <div class="card">
+
+            <!--Card image-->
+            <div class="view overlay hm-white-slight">
+              <img src="https://www.allaboutbirds.org/guide/PHOTO/LARGE/4998955672_e22de7bb10_o_RussCampbellCycroft.jpg" class="img-fluid" alt="">
+              <a href="#">
+                <div class="mask"></div>
+              </a>
+            </div>
+            <!--/.Card image-->
+
+            <!--Card content-->
+            <div class="card-block p-3">
+              <!--Title-->
+              <h4 class="card-title">I AM</h4>
+              <!--Text-->
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="#" class="btn btn-secondary">Read more</a>
+            </div>
+            <!--/.Card content-->
+
+          </div>
+          <!--/.Card-->
+        </div>
+        <!--First columnn-->
+
+        <!--Second columnn-->
+        <div class="col-md-4">
+          <!--Card-->
+          <div class="card">
+
+            <!--Card image-->
+            <div class="view overlay hm-white-slight">
+              <img src="https://www.allaboutbirds.org/guide/PHOTO/LARGE/4998955672_e22de7bb10_o_RussCampbellCycroft.jpg" class="img-fluid" alt="">
+              <a href="#">
+                <div class="mask"></div>
+              </a>
+            </div>
+            <!--/.Card image-->
+
+            <!--Card content-->
+            <div class="card-block p-3">
+              <!--Title-->
+              <h4 class="card-title">AN UGLY</h4>
+              <!--Text-->
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="#" class="btn btn-secondary">Read more</a>
+            </div>
+            <!--/.Card content-->
+
+          </div>
+          <!--/.Card-->
+        </div>
+        <!--Second columnn-->
+
+        <!--Third columnn-->
+        <div class="col-md-4">
+          <!--Card-->
+          <div class="card">
+
+            <!--Card image-->
+            <div class="view overlay hm-white-slight">
+              <img src="https://www.allaboutbirds.org/guide/PHOTO/LARGE/4998955672_e22de7bb10_o_RussCampbellCycroft.jpg" class="img-fluid" alt="">
+              <a href="#">
+                <div class="mask"></div>
+              </a>
+            </div>
+            <!--/.Card image-->
+
+            <!--Card content-->
+            <div class="card-block p-3">
+              <!--Title-->
+              <h4 class="card-title">LITTLE OWL</h4>
+              <!--Text-->
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="#" class="btn btn-secondary">Read more</a>
+            </div>
+            <!--/.Card content-->
+
+          </div>
+          <!--/.Card-->
+        </div>
+        <!--Third columnn-->
+      </div>
+      <!--/.Second row-->
+    </div>
+    <!--/.Main layout-->
+
+  </main>
 
   <div class="container">
-    <h1>Hello World !</h1>
 
     <!-- Example row of columns -->
     <div class="row">
-      <div class="col-md-4">
-        <h2>About me</h2>
-        <img src="https://owlanay.github.io/sig/images/iconfinder-icon.svg" class="img-circle img-responsive" alt="Shrek">
-        <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-        <p><a class="btn btn-default" href="#" role="button">View details »</a></p>
+      <div class="col-md-3">
       </div>
 
-      <div class="col-md-4">
-        <h2>Heading</h2>
-         
-        <i class="fa fa-graduation-cap fa-5x" aria-hidden="true"></i>
-        <p><a href="http://cnn.com"><img src="https://api.statvoo.com/favicon/?url=cnn.com" alt="">  Read it on CNN.com</a>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-        <p><a class="btn btn-default" href="#" role="button">View details »</a></p>
+      <div class="col-md-6">
+        <!-- Form login -->
+        <form>
+          <p class="h5 text-center mb-4">Sample Form</p>
+
+          <div class="md-form">
+            <i class="fa fa-envelope prefix grey-text"></i>
+            <input type="text" id="defaultForm-email" class="form-control">
+            <label for="defaultForm-email">Your email</label>
+          </div>
+
+          <div class="md-form">
+            <i class="fa fa-lock prefix grey-text"></i>
+            <input type="password" id="defaultForm-pass" class="form-control">
+            <label for="defaultForm-pass">Your password</label>
+          </div>
+
+          <div class="text-center">
+            <button class="btn btn-default">Login</button>
+          </div>
+        </form>
+        <!-- Form login -->
+
+
       </div>
 
-      <div class="col-md-4">
-        <h2>Heading</h2>
-        <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
-        <p><a class="btn btn-default" href="#" role="button">View details »</a></p>
+      <div class="col-md-3">
+
       </div>
 
     </div>
+    </div>
 
-    <hr>
+  <!--Footer-->
+  <footer class="page-footer secondary-color-dark center-on-small-only">
 
-    <footer class="text-center">
-      <p><a href="http://facebook.com/"><i class="fa fa-facebook fa-2x"></i></a></p>
-      <p>© 2016 Company, Inc.</p>
-    </footer>
+    <!--Footer Links-->
+    <div class="container">
+      <div class="row">
 
-  </div>  <!-- /container -->
+        <!--First column-->
+        <div class="col-md-6">
+          <h5 class="title">Footer Content</h5> &copy; 2017 <a href="https://mdbootstrap.com"> MDBootstrap.com </a>
+          <p>
+            Built with <i style="color: forestgreen;" class="fa fa-heart faa-pulse animated"></i> by Rob McCormack on Github.com <br>
+            <a href="https://validator.w3.org/nu/?doc=http://mrmccormack.com/mdbootstrap-template-cdn.html" target="_blank"><small>• HTML valid • </small></a>
+          </p>
+        </div>
+        <!--/.First column-->
+
+        <!--Second column-->
+        <div class="col-md-6">
+          <h5 class="title">Links</h5>
+          <ul>
+            <li><a href="http://mrmccormack.com/mdbootstrap-template-cdn.html">This page on GitHub</a></li>
+            <li><a href="#!">Link 2</a></li>
+            <li><a href="#!">Link 3</a></li>
+            <li><a href="#!">Link 4</a></li>
+          </ul>
+        </div>
+        <!--/.Second column-->
+      </div>
+    </div>
+    <!--/.Footer Links-->
 
 
-  <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-  <!-- Include all compiled plugins (below), or include individual files as needed -->
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+  </footer>
+  <!--/.Footer-->
+
+
+  <!-- SCRIPTS -->
+  <!-- JQuery -->
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <!-- Bootstrap tooltips -->
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js"></script>
+  <!-- Bootstrap core JavaScript -->
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-beta/js/bootstrap.min.js"></script>
+  <!-- MDB core JavaScript -->
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.4.1/js/mdb.min.js"></script>
+
+  <script>
+    wow = new WOW().init();
+  </script>
 </body>
 
 </html>
